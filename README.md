@@ -1,12 +1,10 @@
 # Readme
 
-These scripts wrap the core functions of [Shamir’s Secret Sharing (SSS)](https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing) into a little CLI.
+These scripts wrap the core functions of [Shamir’s Secret Sharing (SSS)](https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing) into a little CLI. Uses [github.com/SSSaaS/sssa-golang](github.com/SSSaaS/sssa-golang) for implementation of SSS.
 
 WARNING: Handling secrets on your file system may expose them to malware attacks. Exercise extreme caution in handling seed phrases and other critical secrets. The code in this repo is intended for practice and learning, and should not be introduced as a dependency into critical software environments.
 
-Uses github.com/SSSaaS/sssa-golang for implement of SSS algo.
-
-Intended use-case: share-splitting blockchain seed phrases (mnemonics).
+Intended use-case: share-splitting blockchain seed phrases (mnemonics) and other critical secrests to prevent single-point of failure for losses and leaks.
 
 ## build docker images
 
