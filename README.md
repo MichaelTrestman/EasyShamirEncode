@@ -55,7 +55,7 @@ Regenerate the secret from a set of shares. Will fail unless M valid chunks are 
 
 
 ```shell
-./combine-shares shares.txt=
+./combine-shares shares.txt
 ```
 ```console
 Recovered secret: congratulations! you decoded the message. you have mastered easyshamirencodeCLI!
