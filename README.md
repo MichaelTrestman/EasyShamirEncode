@@ -53,6 +53,8 @@ Recovered secret (hex):
 ```
 ```shell
 passphrase="asdf" ./recover-from-slip39-shares/recover-from-slip39-shares  | xxd -r -p
+```
+```console
 �s2��)s!�!2��!2Q�Ac!�I am a really cool top secret secret%
 ```
 
