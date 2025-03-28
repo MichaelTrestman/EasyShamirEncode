@@ -30,13 +30,6 @@ threshold number of shares must be in shares/
 note that recovery will fail if too many or too few shares are present
 
 ```shell
-passphrase="asdf" ./recover-from-slip39-shares/recover-from-slip39-shares  | xxd -r -p
-```
-```console
-Blahblahblah bleep blooop fleep floop bleep blooop fleep floop bleep blooop fleep floop.
-```
-
-```shell
 passphrase="asdf" ./recover-from-slip39-shares/recover-from-slip39-shares
 ```
 ```console
