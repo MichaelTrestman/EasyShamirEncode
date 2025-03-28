@@ -27,7 +27,12 @@ secret="I am a really cool top secret secret" passphrase="asdf" threshold="4" to
 ### recovery
 
 threshold number of shares must be in shares/
-
+```shell
+ls shares
+```
+```console
+3.txt	4.txt	5.txt	6.txt
+```
 ```shell
  cat shares/3.txt
 ```
