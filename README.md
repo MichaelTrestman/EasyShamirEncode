@@ -27,6 +27,14 @@ secret="I am a really cool top secret secret" passphrase="asdf" threshold="4" to
 ### recovery
 
 threshold number of shares must be in shares/
+
+```shell
+ cat shares/3.txt
+```
+```console
+inherit typical academic ambition carve talent fawn fridge usual frost fangs shaped sugar surface decent quick auction slim treat idea flame frozen move huge client craft mandate hamster black science either prune lunar freshman elite deal
+```
+
 note that recovery will fail if too many or too few shares are present
 
 ```shell
